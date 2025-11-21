@@ -41,10 +41,15 @@ This project analyzed **78,313+ complaint records** across **22 metadata fields*
 <div>├─ dataset/</div>
 <div>│ ├─ complaints-2021-05-14_08_16.json</div>
 <div>├─ docs/</div>
+<div>│ ├─ results/</div>
+<div>│ │  ├─ decision-tree.png</div>
+<div>│ │  ├─ gaussian-naive-bayes.png</div>
+<div>│ │  ├─ logistic-regression.png</div>
+<div>│ │  ├─ random-forest-classifier.png</div>
 <div>│ ├─ architecture.png</div>
 <div>│ ├─ workflow.png</div>
-<div>│ ├─ eda_wordcloud.png</div>
-<div>│ └─ hero.gif</div>
+<div>│ ├─ wordcloud.png</div>
+<div>│ └─ n-gram.png</div>
 <div>├─ report.pdf</div>
 <div>└─ presentation.pdf
 
@@ -205,33 +210,34 @@ Overall Model Performance
 A dataset of 78,313 customer complaints, with 22 columns, provided in JSON format.
 
 **Q: Why NMF for topic modeling?**
+<br>
 NMF provides sparse, interpretable topics that align well with complaint categories.
 
-Q: Why did Logistic Regression perform best?
+**Q: Why did Logistic Regression perform best?**
+<br>
 High-dimensional TF-IDF vectors naturally favor linear decision boundaries.
 
-Q: Can this model run in production?
-Yes — TF-IDF + LR is fast, light, and easily containerizable.
+**Q: Can this model run in production?**
+<br>
+Yes, TF-IDF + LR is fast, light, and easily containerizable.
 
-Q: How is bias or PII handled?
+**Q: How is bias or PII handled?**
+<br>
 Remove PII (names, IDs, emails) and evaluate demographic fairness before launch.
 
 
-
 ## 🧾 Citation / Acknowledgements
-This project was developed by Kalp Devangbhai Thakkar
-University of Central Florida Machine Learning Project
-References and full experiments in report.pdf and slides
+This Machine Learning work is developed by Kalp Thakkar. References and full experiments in report.pdf and slides
+```
+Bird, Klein & Loper - Natural Language Processing with Python (NLTK).
+Pedregosa et al. - Scikit-learn.
+Lee & Seung - NMF (Nature, 1999).
+```
+<i>See full bibliography in this [report](/report.pdf)</i>
 
-Bird, Klein & Loper — Natural Language Processing with Python (NLTK).
 
-Pedregosa et al. — Scikit-learn.
 
-Lee & Seung — NMF (Nature, 1999).
-
-See full bibliography in report.pdf
-
-## 🤝 Contributing
+## 🤝 Contribution
 
 - `Fork` repository
 
