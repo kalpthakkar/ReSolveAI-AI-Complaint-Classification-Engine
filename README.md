@@ -199,17 +199,17 @@ Overall Model Performance
 </a>
 
 ## 💬 Frequently Asked Questions (FAQ)
+<div>
 <details open>
-Q: What dataset did you use?
-<summary><h2>Q: What dataset did you use?</h2></summary>
-<ul>A dataset of 78,313 customer complaints, with 22 columns, provided in JSON format.</ul>
+<summary><h3>Q: What dataset did you use?</h3></summary>
+<ul><p>A dataset of 78,313 customer complaints, with 22 columns, provided in JSON format.</p></ul>
 </details>
 
 <details open>
-Q: What dataset did you use?
-<summary><h2>Q: What dataset did you use?</h2></summary>
-<ul>A dataset of 78,313 customer complaints, with 22 columns, provided in JSON format.</ul>
+<summary><h3>Q: What dataset did you use?</h3></summary>
+<ul><p>A dataset of 78,313 customer complaints, with 22 columns, provided in JSON format.</p></ul>
 </details>
+</div>
 
 Q: Why NMF for topic modeling?
 NMF provides sparse, interpretable topics that align well with complaint categories.
