@@ -199,26 +199,12 @@ Overall Model Performance
 </a>
 
 ## 💬 Frequently Asked Questions (FAQ)
-<div>
 
-<details open>
-<summary><p>Q: What dataset did you use?</p></summary>
-<ul><p>A dataset of 78,313 customer complaints, with 22 columns, provided in JSON format.</p></ul>
-</details>
+**Q: What dataset did you use?**
+<br>
+A dataset of 78,313 customer complaints, with 22 columns, provided in JSON format.
 
-<details open>
-<summary><h4>Q: What dataset did you use?</h4></summary>
-<ul><p>A dataset of 78,313 customer complaints, with 22 columns, provided in JSON format.</p></ul>
-</details>
-
-<details open>
-<summary><strong><p>Q: What dataset did you use?</p></strong></summary>
-<ul><p>A dataset of 78,313 customer complaints, with 22 columns, provided in JSON format.</p></ul>
-</details>
-
-</div>
-
-Q: Why NMF for topic modeling?
+**Q: Why NMF for topic modeling?**
 NMF provides sparse, interpretable topics that align well with complaint categories.
 
 Q: Why did Logistic Regression perform best?
