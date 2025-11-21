@@ -1,4 +1,4 @@
-# ReSolveAI — AI Complaint Classification Engine 🧭🤖
+# ReSolveAI - AI Complaint Classification Engine 🧭🤖
 
 [![Project Status](https://img.shields.io/badge/status-active-success)]()
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue)]()
